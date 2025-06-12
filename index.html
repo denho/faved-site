@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Faved - Organize Your Bookmarks</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MJ4H9Z9F');</script>
+    <!-- End Google Tag Manager -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon and App Icons -->
+    <link rel="icon" href="img/faved-logo-blue.png" type="image/png">
+    <link rel="shortcut icon" href="img/faved-logo-blue.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/faved-logo-blue.png">
+    <meta name="msapplication-TileImage" content="img/faved-logo-blue.png">
+    <meta name="msapplication-TileColor" content="#3b82f6">
+    <!-- End Favicon and App Icons -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ4H9Z9F"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img alt="Logo" class="faved-icon" src="img/faved-logo-blue.png"/>
+                    <span>Faved</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#get-started">Get Started</a></li>
+                <li><a class="demo-link" href="https://demo.faved.dev/" target="_blank"><i class="fas fa-globe"></i>
+                    Live Demo</a></li>
+                <li><a class="github-link" href="https://github.com/denho/faved"><i class="fab fa-github"></i>
+                    GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Organize Your Bookmarks with <span class="highlight">Faved</span></h1>
+                <p>A self-hosted, open-source solution to store, categorize, and access your bookmarks from
+                    anywhere.</p>
+                <div class="cta-buttons">
+                    <a class="btn primary-btn" href="https://github.com/denho/faved"><i class="fab fa-github"></i> View
+                        on GitHub</a>
+                    <a class="btn secondary-btn" href="https://demo.faved.dev/"><i class="fas fa-globe"></i> Live
+                        Demo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img alt="Faved application screenshot" src="img/screenshot-optimized.png"/>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="features" id="features">
+    <div class="container">
+        <h2>Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Self-Hosted</h3>
+                <p>Keep your bookmarks on your own computer or server. Your data is stored locally and belongs to
+                    you.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tags"></i>
+                </div>
+                <h3>Tagging System</h3>
+                <p>Organize bookmarks with custom nested tags. Apply different styling to tags and pin important tags at
+                    the top for quick access.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <h3>Open Source</h3>
+                <p>Transparent codebase that anyone can inspect, modify, and contribute to.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+                <h3>Browser Bookmarklet</h3>
+                <p>Save bookmarks from any browser with a simple bookmarklet without installing additional extensions.
+                    Works on any desktop and mobile browser.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Lightning Fast</h3>
+                <p>Blazing performance with full page loads of 2000+ bookmarks under 100ms, ensuring a smooth experience
+                    even with large collections.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-file-import"></i>
+                </div>
+                <h3>Import from Pocket</h3>
+                <p>Seamlessly import your existing bookmarks from Pocket to transition to self-hosted storage.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="about-content">
+            <h2>About Faved</h2>
+            <p>Faved was born out of the need for a simple yet powerful bookmark manager that respects user privacy and
+                ownership of data. Unlike commercial bookmark services that collect your data, Faved is completely
+                self-hosted - meaning you maintain control over your information.</p>
+            <p>Built with modern web technologies, Faved provides a seamless experience across all your devices while
+                ensuring your bookmarks are organized just the way you want them.</p>
+        </div>
+        <div class="tech-stack">
+            <h3>Built With</h3>
+            <div class="tech-icons">
+                <div class="tech-icon"><i class="fab fa-php"></i><span>PHP 8</span></div>
+                <div class="tech-icon"><i class="fas fa-database"></i><span>SQLite</span></div>
+                <div class="tech-icon"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="get-started" id="get-started">
+    <div class="container">
+        <h2>Get Started</h2>
+        <div class="docker-option">
+            <div class="installation-step">
+                <h3>1. Clone the repository</h3>
+                <div class="code-block">
+                        <pre><code>git clone https://github.com/denho/faved.git
+cd faved</code></pre>
+                    <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                </div>
+            </div>
+            <div class="installation-step">
+                <h3>2. Start the Docker container (change the port if needed):</h3>
+                <p class="note">
+                    <i class="fas fa-info-circle"></i> Note: If you don't have Docker installed, you can <a
+                        href="https://docs.docker.com/get-docker/" target="_blank">download and install Docker</a> from
+                    the official website.
+                </p>
+
+                <div class="code-block">
+                    <pre><code>PORT=8000 docker compose up -d</code></pre>
+                    <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                </div>
+                Visit <code>http://localhost:8000</code> in your browser to access your Faved application.
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="Logo" class="faved-icon" src="/img/faved-logo-blue.png"/>
+                <span>Faved</span>
+            </div>
+            <p>&copy; 2025 Faved. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/denho/faved"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://github.com/denho/faved/issues"><i class="fas fa-bug"></i> Report Bug</a>
+                <a href="https://github.com/denho/faved/blob/main/LICENSE"><i class="fas fa-file-contract"></i> License</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function copyCode(button) {
+        const codeBlock = button.parentElement.querySelector('code');
+        const textArea = document.createElement('textarea');
+        textArea.textContent = codeBlock.textContent;
+        document.body.append(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        textArea.remove();
+
+        // Change button content temporarily
+        const originalHtml = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-check"></i>';
+        setTimeout(() => {
+            button.innerHTML = originalHtml;
+        }, 1500);
+    }
+</script>
+</body>
+</html>
